@@ -3,7 +3,7 @@
 #install
 rm -rf xolpanel.sh
 apt update && apt upgrade
-apt install python3 python3-pip git
+apt install python3 python310-pip git
 git clone https://github.com/botak8/xolpanel.git
 unzip xolpanel/xolpanel.zip
 pip3 install -r xolpanel/requirements.txt
